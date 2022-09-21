@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator .css">
+</head>
+<body>
+    <div class="calc-grid">
+        <table> 
+            <thead class="output">
+                <tr class="element">
+                    <td colspan="4" data-current-operand></td>
+                </t>
+                <tr class="result">
+                    <td colspan="4" data-previous-operand></td>
+                </tr>
+            </thead>
+            <tr>
+                <td class="allclear"colspan="2"><button data-all-clear>AC</button></td>
+                <td><button data-delete>DEL</button></td>
+                <td class="signs"><button data-operation>/</button></td>
+            </tr>
+            <tr>
+                <td><button data-number>1</button></td>
+                <td><button data-number>2</button></td>
+                <td><button data-number>3</button></td>
+                <td class="signs"><button data-operation>*</button></td>
+            </tr>
+            <tr>
+                <td><button data-number>4</button></td>
+                <td><button data-number>5</button></td>
+                <td><button data-number>6</button></td>
+                <td class="signs"><button data-operation>-</button></td>
+            </tr>
+            <tr>
+                <td><button data-number>7</button></td>
+                <td><button data-number>8</button></td>
+                <td><button data-number>9</button></td>
+                <td class = "plus"rowspan="2"><button data-operation>+</button></td>
+            </tr>
+            <tr>
+                <td><button data-number>.</button></td>
+                <td><button data-number>0</button></td>
+                <td><button data-equals>=</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
