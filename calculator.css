@@ -1,0 +1,84 @@
+*, *::before, *::after { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to left, rgb(139, 204, 139), rgb(0, 102, 128));
+}
+.calc-grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20% 50%;
+}
+table{
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgba(2, 6, 27, 0.3);
+}
+button{
+    cursor: pointer;
+    font-size: 26px;
+    border: 3px solid #128;
+    outline: none;
+    background-color: antiquewhite;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+.signs button{
+    cursor: pointer;
+    font-size: 26px;
+    border: 3px solid rgb(136, 104, 17);
+    outline: none;
+    background-color: antiquewhite;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+button:hover, .plus button:hover{
+    background-color: aquamarine;
+}
+div.output{
+    background-color: white;
+}
+.allclear button{
+    width: 100px;
+}     
+.plus button{
+    cursor: pointer;
+    font-size: 26px;
+    border: 3px solid rgb(136, 104, 17);
+    outline: none;
+    background-color: antiquewhite;
+    width: 50px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+tr.element{
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    height: 70px;
+    color: #fff;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+    max-width: 200px;
+}             
+tr.result{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 26px;
+    color: #ccc;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+    max-width: 200px;
+}     
+/* media query to set calc-grid padding to 20%                                                                                                                                                                                                         
