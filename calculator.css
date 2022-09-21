@@ -11,7 +11,7 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
-    padding: 20% 50%;
+    margin-top: 100px;
 }
 table{
     border: 5px solid white;
